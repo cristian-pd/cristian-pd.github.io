@@ -1,5 +1,6 @@
 @import "../../_globalColor";
 
+/*
 .dev-icons {
   padding-left: 0;
   list-style: none;
@@ -22,10 +23,48 @@
 .software-skill-inline > i:hover {
   color: $skillsColor;
 }
+
 .software-skill-inline > p {
   color: $subTitle;
   font-size: 10px;
 }
+
 .software-skill-inline > i:hover ~ p {
+  color: $skillsColor;
+}
+*/
+
+.dev-icons {
+  padding-left: 0;
+  list-style: none;
+  font-size: 3rem;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.software-skill-inline {
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.software-skill-inline > img {
+  width: 7vw;
+  max-width: 56px;
+  height: auto;
+  filter: invert(53%) sepia(0%) saturate(0%) hue-rotate(180deg) brightness(92%) contrast(91%);
+}
+
+.software-skill-inline > img:hover {
+  filter: invert(38%) sepia(86%) saturate(450%) hue-rotate(220deg) brightness(95%) contrast(95%);
+}
+
+.software-skill-inline > p {
+  color: $subTitle;
+  font-size: 10px;
+}
+
+.software-skill-inline > img:hover ~ p {
   color: $skillsColor;
 }

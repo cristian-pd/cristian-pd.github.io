@@ -26,11 +26,19 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-/* Media Query */
+
+/* Media query */
 @media (max-width: 1380px) {
   html,
   body {
     font-size: rem;
     line-height: normal;
   }
+}
+
+/* --------------------------------------- */
+
+#root {
+  max-width: 1380px;
+  margin: 0 auto;
 }

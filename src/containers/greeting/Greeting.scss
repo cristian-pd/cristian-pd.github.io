@@ -42,6 +42,7 @@
   text-decoration: none;
 }
 
+/*
 .greeting-text {
   font-size: 70px;
   line-height: 1.1;
@@ -52,6 +53,7 @@
   font-size: 30px;
   line-height: 40px;
 }
+*/
 
 .greeting-image-div > img {
   max-width: 100%;
@@ -124,4 +126,18 @@
   .main {
     width: auto;
   }
+}
+
+/* ------------------------------- */
+
+.greeting-text {
+    font-size: 55px;
+    line-height: 1.1;
+    color: #000000 !important;
+}
+
+.greeting-text-p {
+    font-size: 20px;
+    line-height: 35px;
+    text-align: justify;
 }
