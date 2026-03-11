@@ -22,7 +22,7 @@ export default function StartupProject() {
       <div className="main" id="projects">
         <div>
           <h1 className="skills-heading">{bigProjects.title}</h1>
-          <p
+          {/*<p
             className={
               isDark
                 ? "dark-mode project-subtitle"
@@ -30,7 +30,7 @@ export default function StartupProject() {
             }
           >
             {bigProjects.subtitle}
-          </p>
+          </p>*/}
 
           <div className="projects-container">
             {bigProjects.projects.map((project, i) => {

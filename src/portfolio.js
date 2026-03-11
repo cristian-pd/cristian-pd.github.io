@@ -188,13 +188,13 @@ const skillsSection = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "Some startups and companies that i helped to create their tech",
+  subtitle: "",
   
   projects: [
     {
       image: require("./assets/images/new/doLogo.webp"),
-      projectName: "Dark Orbit Rework",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Netcode framework", // Dark orbit rework
+      projectDesc: "Low-level networking framework for building real-time game protocols.",
       footerLink: [
         {
           name: "See more",
