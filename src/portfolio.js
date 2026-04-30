@@ -198,7 +198,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "See more",
-          url: "https://cristian-pd.github.io/doproj"
+          url: "doproj"
         }
       ]
     },
@@ -209,7 +209,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "See more",
-          url: "https://cristian-pd.github.io/simulation_of_natural_selection_by_evolutionary_computation/"
+          url: "tfgproj"
         }
       ]
     },
@@ -220,7 +220,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "See more",
-          url: "https://elairida.itch.io/top-cruise"
+          url: "tcproj"
         }
       ]
     }
