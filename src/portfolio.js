@@ -78,7 +78,7 @@ const illustration = {
 const greeting = {
   username: "",
   title: "Hi all, I'm Cristian",
-  subTitle: emoji("I’ve loved games since childhood —not just playing them, also building them. Today, I spend more time programming than playing, because coding is my passion 🚀. I’m an expert in C++ and C#, with a degree in Computer Science, and I’m currently studying Game Design combining analytical precision with creativity.\nAs a backend and game developer, I’m a big-picture thinker who transforms complex challenges into scalable solutions. By prioritizing architecture and adaptability, I build systems that aren’t just technically sound, but designed to endure and evolve 💫"),
+  subTitle: emoji("I’m a programmer focused on Multiplayer Game Development 💫 I’m an expert in C++ and C#, with a degree in Computer Science, and I’m currently studying Game Design. I consider myself a big-picture thinker who transforms complex challenges into scalable solutions 🚀"),
   resumeLink: "",
   displayGreeting: true
 };
@@ -183,7 +183,7 @@ const skillsSection = {
     }
   ],
   
-  display: true
+  display: false
 };
 
 const bigProjects = {
@@ -193,7 +193,7 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/new/doLogo.webp"),
-      projectName: "Netcode framework", // Dark orbit rework
+      projectName: "Dark Orbit Rework",
       projectDesc: "Low-level networking framework for building real-time game protocols.",
       footerLink: [
         {
