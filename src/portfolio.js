@@ -77,8 +77,8 @@ const illustration = {
 // ---------------------------In use---------------------------
 const greeting = {
   username: "",
-  title: "Hi all, I'm Cristian",
-  subTitle: emoji("I’m a programmer focused on Multiplayer Game Development 💫 I’m an expert in C++ and C#, with a degree in Computer Science, and I’m currently studying Game Design. I consider myself a big-picture thinker who transforms complex challenges into scalable solutions 🚀"),
+  title: "Hi all",
+  subTitle: emoji("My name is Cristian Pagán. I’m a programmer focused on Multiplayer Game Development 💫 I’m an expert in C++ and C#, with a degree in Computer Science, and I’m currently studying Game Design. I consider myself a big-picture thinker who transforms complex challenges into scalable solutions 🚀"),
   resumeLink: "",
   displayGreeting: true
 };
