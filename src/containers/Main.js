@@ -20,7 +20,7 @@ import {useLocalStorage} from "../hooks/useLocalStorage";
 import "./Main.scss";
 
 const Main = () => {
-  const [isDark, setIsDark] = useLocalStorage("isDark", false);
+  const [isDark] = useLocalStorage("isDark", false);
   const [isShowingSplashAnimation, setIsShowingSplashAnimation] =
     useState(true);
 
@@ -34,8 +34,6 @@ const Main = () => {
         clearTimeout(splashTimer);
       };
     }
-
-    setIsDark(false);
   }, []);
 
   const changeTheme = () => {

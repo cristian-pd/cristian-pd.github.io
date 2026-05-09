@@ -194,7 +194,7 @@ const bigProjects = {
     {
       image: require("./assets/images/new/doLogo.webp"),
       projectName: "Dark Orbit Rework",
-      projectDesc: "Low-level networking framework for building real-time game protocols.",
+      projectDesc: "Massively Online Game built from scratch with a C++ server and C# client",
       footerLink: [
         {
           name: "See more",
@@ -204,7 +204,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/new/tfg.webp"),
-      projectName: "Computational Natural Selection",
+      projectName: "Artificial Life",
       projectDesc: "My bachelor’s thesis, graded 10/10 ✅, focused on developing an AI system.",
       footerLink: [
         {
