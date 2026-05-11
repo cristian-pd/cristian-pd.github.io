@@ -5,6 +5,7 @@ import "../containers/greeting/Greeting.scss"
 import "./proj.scss";
 import "./tcproj.scss";
 import thumbnail from "../assets/new/tcthumbnail.png";
+import videoPath from "../assets/new/tc.mp4";
 
 function TCProj() {
   useLayoutEffect(() => {
@@ -24,8 +25,8 @@ function TCProj() {
         <br/>
         <p className="tc-p-center greeting-text-p subTitle">“A short puzzle simulation game where you recruit volunteer workers for a cruise and shape the journey toward disaster, success, or the perfect voyage through your choices.”</p>
         <br/>
-        <video className="tc-video-center" width="720" controls poster={thumbnail} onPlay={() => console.log("PLAYING")} onError={(e) => console.log("VIDEO ERROR", e)}>
-          <source src={`${process.env.PUBLIC_URL}/tcvideo.mp4`} type="video/mp4" />
+        <video className="tc-video-center" width="720" controls poster={thumbnail}>
+          <source src={videoPath} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <br/>
@@ -38,9 +39,7 @@ function TCProj() {
         <h5>Features coded</h5>
         <ul>
           <li className="greeting-text-p subTitle">Game user interface</li>
-          <li className="greeting-text-p subTitle">Recruiting rounds</li>
           <li className="greeting-text-p subTitle">Candidate database</li>
-          <li className="greeting-text-p subTitle">64 possible recruiting sequences</li>
           <li className="greeting-text-p subTitle">4 possible endings</li>
           <li className="greeting-text-p subTitle">Main menu</li>
           <li className="greeting-text-p subTitle">Tutorial</li>
