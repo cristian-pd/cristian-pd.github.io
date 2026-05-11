@@ -5,7 +5,7 @@ import "../containers/greeting/Greeting.scss"
 import "./proj.scss";
 import "./tcproj.scss";
 import thumbnail from "../assets/new/tcthumbnail.png";
-import videoPath from "../assets/new/tcv.mp4";
+import videoPath from "../assets/new/tcvi.mp4";
 
 function TCProj() {
   useLayoutEffect(() => {
