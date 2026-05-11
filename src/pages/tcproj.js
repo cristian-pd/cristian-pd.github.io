@@ -24,7 +24,7 @@ function TCProj() {
         <br/>
         <p className="tc-p-center greeting-text-p subTitle">“A short puzzle simulation game where you recruit volunteer workers for a cruise and shape the journey toward disaster, success, or the perfect voyage through your choices.”</p>
         <br/>
-        <video className="tc-video-center" width="720" controls poster={thumbnail}>
+        <video className="tc-video-center" width="720" controls poster={thumbnail} onPlay={() => console.log("PLAYING")} onError={(e) => console.log("VIDEO ERROR", e)}>
           <source src={`${process.env.PUBLIC_URL}/tcvideo.mp4`} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
