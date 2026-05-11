@@ -55,9 +55,8 @@ export default function StartupProject() {
                       className={
                         isDark ? "dark-mode card-subtitle" : "card-subtitle"
                       }
-                    >
-                      {project.projectDesc}
-                    </p>
+                      dangerouslySetInnerHTML={{ __html: project.projectDesc }}
+                    ></p>
                     {project.footerLink ? (
                       <div className="project-card-footer">
                         {project.footerLink.map((link, i) => {
