@@ -193,8 +193,8 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/new/doLogo.webp"),
-      projectName: "Dark Orbit Rework",
-      projectDesc: "Massively Online Game built from scratch with a C++ server and C# client",
+      projectName: "DarkOrbit MMO Rework",
+      projectDesc: "Online Game built from scratch with a <b>C++</b> server and <b>C#</b> client",
       footerLink: [
         {
           name: "See more",
@@ -205,7 +205,7 @@ const bigProjects = {
     {
       image: require("./assets/images/new/tfg.webp"),
       projectName: "Artificial Life",
-      projectDesc: "My bachelor’s thesis, graded 10/10 ✅, focused on developing an AI system.",
+      projectDesc: "Bachelor’s thesis, graded 10/10 ✅, focused on developing a <b>C#</b> AI system",
       footerLink: [
         {
           name: "See more",
@@ -216,7 +216,7 @@ const bigProjects = {
 	{
       image: require("./assets/images/new/tcLogo.webp"),
       projectName: "Top Cruise 🧩",
-      projectDesc: "A puzzle simulation game made with Unity and C#",
+      projectDesc: "A puzzle simulation game made with <b>Unity</b> and <b>C#</b>",
       footerLink: [
         {
           name: "See more",
