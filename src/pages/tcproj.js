@@ -4,7 +4,6 @@ import "../containers/Main.scss";
 import "../containers/greeting/Greeting.scss"
 import "./proj.scss";
 import "./tcproj.scss";
-import tcvideo from "../assets/new/tcvideo.mp4";
 import thumbnail from "../assets/new/tcthumbnail.png";
 
 function TCProj() {
@@ -26,7 +25,7 @@ function TCProj() {
         <p className="tc-p-center greeting-text-p subTitle">“A short puzzle simulation game where you recruit volunteer workers for a cruise and shape the journey toward disaster, success, or the perfect voyage through your choices.”</p>
         <br/>
         <video className="tc-video-center" width="720" controls poster={thumbnail}>
-          <source src={tcvideo} type="video/mp4"/>
+          <source src="/tcvideo.mp4" type="video/mp4"/>
           Your browser does not support the video tag.
         </video>
         <br/>
