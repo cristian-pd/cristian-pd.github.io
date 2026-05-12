@@ -24,10 +24,7 @@ function TCProj() {
         <br/>
         <p className="tc-p-center greeting-text-p subTitle">“A short puzzle simulation game where you recruit volunteer workers for a cruise and shape the journey toward disaster, success, or the perfect voyage through your choices.”</p>
         <br/>
-        <video className="tc-video-center" width="720" controls poster={thumbnail}>
-          <source src="https://youtu.be/XMazZBMqLm4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        <iframe className="tc-video-center" width="720" src="https://www.youtube.com/embed/XMazZBMqLm4" title="Top Cruise" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <br/>
         <br/>
         <br/>
