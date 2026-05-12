@@ -5,7 +5,6 @@ import "../containers/greeting/Greeting.scss"
 import "./proj.scss";
 import "./tcproj.scss";
 import thumbnail from "../assets/new/tcthumbnail.png";
-import videoPath from "../assets/new/fixed.mp4";
 
 function TCProj() {
   useLayoutEffect(() => {
@@ -25,8 +24,8 @@ function TCProj() {
         <br/>
         <p className="tc-p-center greeting-text-p subTitle">“A short puzzle simulation game where you recruit volunteer workers for a cruise and shape the journey toward disaster, success, or the perfect voyage through your choices.”</p>
         <br/>
-        <video className="tc-video-center" width="720" controls poster={thumbnail} preload="auto" playsInline>
-          <source src={videoPath} type="video/mp4" />
+        <video className="tc-video-center" width="720" controls poster={thumbnail}>
+          <source src="https://youtu.be/XMazZBMqLm4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <br/>
