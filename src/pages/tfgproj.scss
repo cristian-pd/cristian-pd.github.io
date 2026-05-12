@@ -2,6 +2,8 @@
   display: flex;
 }
 
-.tfg-greeting-text {
-    text-align: center;
+@media (max-width: 768px) {
+  .tfg-greeting-text {
+      text-align: center;
+  }
 }
