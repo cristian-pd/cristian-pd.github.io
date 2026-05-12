@@ -4,6 +4,7 @@ import Button from "../components/button/Button";
 import "../containers/Main.scss";
 import "../containers/greeting/Greeting.scss"
 import "./proj.scss";
+import thesispdf from "../assets/new/memoria.pdf";
 
 function TFGProj() {
   useLayoutEffect(() => {
@@ -14,7 +15,7 @@ function TFGProj() {
     <div>
       <Header />
       <div className="proj-body">
-        <h1 className="greeting-text">Simulation of natural selection by evolutionary computation</h1>
+        <h2>Simulation of natural selection by evolutionary computation</h2>
         <br/>
         <h5>Download Page & More Info</h5>
         <a
@@ -24,7 +25,7 @@ function TFGProj() {
           <Button text="Code repository" />
         </a>
         <a
-          href={require("./memoria.pdf")}
+          href={thesispdf}
           download="Memoria.pdf"
           className="download-link-button"
         >
