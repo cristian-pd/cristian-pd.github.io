@@ -12,6 +12,10 @@
   border-radius: 12px;
 }
 
-.tc-top-align {
-    vertical-align: top;
+.tc-p-center {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    font-style: italic;
 }
