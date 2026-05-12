@@ -15,7 +15,7 @@ function TFGProj() {
     <div>
       <Header />
       <div className="proj-body">
-        <h2>Simulation of natural selection by evolutionary computation</h2>
+        <h2 className="tfg-greeting-text">Simulation of natural selection by evolutionary computation</h2>
         <br/>
         <h5>Download Page & More Info</h5>
         <div className="tfg-button-greeting-div">
