@@ -4,7 +4,6 @@ import "../containers/Main.scss";
 import "../containers/greeting/Greeting.scss"
 import "./proj.scss";
 import "./tcproj.scss";
-import thumbnail from "../assets/new/tcthumbnail.png";
 
 function TCProj() {
   useLayoutEffect(() => {
