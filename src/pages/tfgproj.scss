@@ -1,3 +1,5 @@
+@import "../_globalColor";
+
 .tfg-button-greeting-div {
   display: flex;
 }
@@ -5,5 +7,40 @@
 @media (max-width: 768px) {
   .tfg-greeting-text {
       text-align: center;
+  }
+}
+
+.tfg-abstract {
+  font-style: italic;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+.tfg-subTitle {
+  color: $subTitle !important;
+}
+
+.tfg-video-wrapper {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  aspect-ratio: 16 / 9;
+}
+
+.tfg-video {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 12px;
+}
+
+.tfg-img {
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .tfg-img-aux {
+    width: 100%;
+    height: auto;
   }
 }
