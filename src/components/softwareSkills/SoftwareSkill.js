@@ -1,6 +1,5 @@
 import React from "react";
 import "./SoftwareSkill.scss";
-import {skillsSection} from "../../portfolio";
 
 import cppLogo from "../../assets/new/skills/diff/cplusplus.svg";
 import csLogo from "../../assets/new/skills/diff/cs.svg";
@@ -48,41 +47,12 @@ const logosMap = {
   "html5Logo": html5Logo
 };
 
-export default function SoftwareSkill() {
+export default function SoftwareSkill({ skillMap }) {
   return (
     <div>
       <div className="software-skills-main-div">
         <ul className="dev-icons">
-          {skillsSection.softwareSkills.map((skills, i) => {
-			  
-			  
-			  
-//            return (
-//              <li
-//                key={i}
-//                className="software-skill-inline"
-//                name={skills.skillName}
-//              >
-//                <i className={skills.fontAwesomeClassname}></i>
-//                <p>{skills.skillName}</p>
-//              </li>
-//            );
-			  
-			  
-			  
-//			  return (
-//              <li
-//                key={i}
-//                className="software-skill-inline"
-//                name={skills.skillName}
-//              >
-//                <img src={skills.fontAwesomeClassname} alt="" className="new-skill-icon" />
-//                <p>{skills.skillName}</p>
-//              </li>
-//            );
-			
-			
-			
+          {skillMap.map((skills, i) => {
             return (
               <li
                 key={i}
@@ -93,9 +63,6 @@ export default function SoftwareSkill() {
                 <p>{skills.skillName}</p>
               </li>
             );
-			
-			
-			
           })}
         </ul>
       </div>

@@ -4,6 +4,16 @@ import "../containers/Main.scss";
 import "../containers/greeting/Greeting.scss"
 import "./proj.scss";
 import "./tcproj.scss";
+import SoftwareSkill from "../components/softwareSkills/SoftwareSkill";
+
+const tcSkills = [
+  { skillName: "gamedev", fontAwesomeClassname: "gameLogo"  },
+  { skillName: "c#",      fontAwesomeClassname: "csLogo"    },
+  { skillName: "unity",   fontAwesomeClassname: "unityLogo" },
+  { skillName: "math",    fontAwesomeClassname: "mathLogo"  },
+  { skillName: "2d-art",  fontAwesomeClassname: "cubeLogo"  },
+  { skillName: "git",     fontAwesomeClassname: "gitLogo"   }
+];
 
 function TCProj() {
   useLayoutEffect(() => {
@@ -28,25 +38,24 @@ function TCProj() {
         </div>
         <br/>
         <br/>
+        <p className="greeting-text-p subTitle tc-p-center"><b>What skills did I use?</b></p>
+        <br/>
+        <SoftwareSkill skillMap={tcSkills} />
         <br/>
         <h5>Role</h5>
-        <p className="greeting-text-p subTitle">In this project, I was the only programmer on a team of 9 persons for a 48-hour Game Jam. The team was highly creative, including art, storytelling, UI design, and sound. They were generating ideas very quickly, so aside from <b>programming</b>, my role was also <b>team coordinator</b>. Therefore, I was analysing and making decisions about the ideas, keeping the team in the same direction, communicating objectives and advances, and fast programming.</p>
+        <p className="greeting-text-p subTitle">In this project, I was the only programmer on a team of 9 persons for a 48-hour Game Jam. The team was highly creative, including art, storytelling, UI design, and sound. They were generating ideas very quickly, so I was <b>programming</b> very fast. In addition, my role was also <b>project coordinator</b>. Therefore, I was analysing ideas, making decisions about the ideas, keeping the team members in the same direction, communicating objectives and programming.</p>
         <h5>Metodology</h5>
         <p className="greeting-text-p subTitle">I started the project with a <b>prototype</b> to validate the idea. For development, I used an <b>iterative strategy</b>. In each iteration, I developed an arbitrary number of features and released a playable version to the team. Before starting a new iteration, one team member looked for bugs, while the rest of the team continued developing ideas and providing feedback. All feedback was then added into features to be implemented in future iterations. The cycle continued in this way until the end of development.</p>
-        <h5>Features coded</h5>
+        <h5>Features I coded</h5>
         <ul>
           <li className="greeting-text-p subTitle">Game user interface</li>
           <li className="greeting-text-p subTitle">Candidate database</li>
+          <li className="greeting-text-p subTitle">Narrative subsystem</li>
           <li className="greeting-text-p subTitle">4 possible endings</li>
           <li className="greeting-text-p subTitle">Main menu</li>
           <li className="greeting-text-p subTitle">Tutorial</li>
-          <li className="greeting-text-p subTitle">Animations, effects, sounds and music</li>
+          <li className="greeting-text-p subTitle">All the animations, effects, sounds and music</li>
           <li className="greeting-text-p subTitle">bug-free software</li>
-        </ul>
-        <h5>Technologies used</h5>
-        <ul>
-          <li className="greeting-text-p subTitle">Unity</li>
-          <li className="greeting-text-p subTitle">C#</li>
         </ul>
       </div>
     </div>
