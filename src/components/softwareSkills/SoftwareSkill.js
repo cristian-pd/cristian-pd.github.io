@@ -47,12 +47,12 @@ const logosMap = {
   "html5Logo": html5Logo
 };
 
-export default function SoftwareSkill({ softwareSkills }) {
+export default function SoftwareSkill({ skillMap }) {
   return (
     <div>
       <div className="software-skills-main-div">
         <ul className="dev-icons">
-          {softwareSkills.map((skills, i) => {
+          {skillMap.map((skills, i) => {
             return (
               <li
                 key={i}
