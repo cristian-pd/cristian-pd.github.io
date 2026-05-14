@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from "react";
 import Greeting from "./greeting/Greeting";
-import Skills from "./skills/Skills";
 import StackProgress from "./skillProgress/skillProgress";
 import WorkExperience from "./workExperience/WorkExperience";
 import Projects from "./projects/Projects";
@@ -49,7 +48,6 @@ const Main = () => {
           <>
             <Greeting />
             <StartupProject />
-            <Skills />
             <StackProgress />
             <Education />
             <WorkExperience />

@@ -1,6 +1,5 @@
 import React from "react";
 import "./SoftwareSkill.scss";
-import {skillsSection} from "../../portfolio";
 
 import cppLogo from "../../assets/new/skills/diff/cplusplus.svg";
 import csLogo from "../../assets/new/skills/diff/cs.svg";
@@ -48,12 +47,12 @@ const logosMap = {
   "html5Logo": html5Logo
 };
 
-export default function SoftwareSkill() {
+export default function SoftwareSkill({ softwareSkills }) {
   return (
     <div>
       <div className="software-skills-main-div">
         <ul className="dev-icons">
-          {skillsSection.softwareSkills.map((skills, i) => {
+          {softwareSkills.map((skills, i) => {
             return (
               <li
                 key={i}
