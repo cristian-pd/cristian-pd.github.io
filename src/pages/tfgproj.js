@@ -11,8 +11,8 @@ import SoftwareSkill from "../components/softwareSkills/SoftwareSkill";
 
 const tfgSkills = [
   { skillName: "unity",    fontAwesomeClassname: "unityLogo" },
-  { skillName: "math",     fontAwesomeClassname: "mathLogo"  },
   { skillName: "game-dev", fontAwesomeClassname: "gameLogo"  },
+  { skillName: "math",     fontAwesomeClassname: "mathLogo"  },
   { skillName: "c#",       fontAwesomeClassname: "csLogo"    },
 ];
 
@@ -63,8 +63,8 @@ function TFGProj() {
         <h5 className="tfg-no-abstract">What did it do?</h5>
         <p className="tfg-no-abstract">This project is <b>my Bachelor's thesis in Computer Science, which I programmed entirely on my own</b> and for which I received a grade of 10 out of 10. It consists of a <b>simulation that uses three different artificial intelligence algorithms</b>. These algorithms were implemented from scratch by me without using any external libraries.</p>
         <h5 className="tfg-no-abstract">What was the result?</h5>
-        <p className="tfg-no-abstract">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
-        <h5 className="tfg-no-abstract">Why it is important?</h5>
+        <p className="tfg-no-abstract">An artificial intelligence that evolves creatures by giving them specific settings and behaviors. The results showed that <b>my AI configured the creatures using logic similar to human thinking.</b></p>
+        <h5 className="tfg-no-abstract">Why is it important?</h5>
         <p className="tfg-no-abstract">Simulations are a key tool in modern science, allowing the study of complex or inaccessible systems, such as the universe, through theoretical models.</p>
         <br/>
         <p className="tfg-subTitle"><b>How did I do it?</b></p>

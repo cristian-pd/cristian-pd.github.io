@@ -10,7 +10,6 @@ const tcSkills = [
   { skillName: "game-dev", fontAwesomeClassname: "gameLogo"  },
   { skillName: "c#",       fontAwesomeClassname: "csLogo"    },
   { skillName: "unity",    fontAwesomeClassname: "unityLogo" },
-  { skillName: "math",     fontAwesomeClassname: "mathLogo"  },
   { skillName: "2d-art",   fontAwesomeClassname: "cubeLogo"  },
   { skillName: "git",      fontAwesomeClassname: "gitLogo"   }
 ];
