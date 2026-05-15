@@ -7,12 +7,11 @@ import "./tcproj.scss";
 import SoftwareSkill from "../components/softwareSkills/SoftwareSkill";
 
 const tcSkills = [
-  { skillName: "gamedev", fontAwesomeClassname: "gameLogo"  },
-  { skillName: "c#",      fontAwesomeClassname: "csLogo"    },
-  { skillName: "unity",   fontAwesomeClassname: "unityLogo" },
-  { skillName: "math",    fontAwesomeClassname: "mathLogo"  },
-  { skillName: "2d-art",  fontAwesomeClassname: "cubeLogo"  },
-  { skillName: "git",     fontAwesomeClassname: "gitLogo"   }
+  { skillName: "game-dev", fontAwesomeClassname: "gameLogo"  },
+  { skillName: "c#",       fontAwesomeClassname: "csLogo"    },
+  { skillName: "unity",    fontAwesomeClassname: "unityLogo" },
+  { skillName: "2d-art",   fontAwesomeClassname: "cubeLogo"  },
+  { skillName: "git",      fontAwesomeClassname: "gitLogo"   }
 ];
 
 function TCProj() {

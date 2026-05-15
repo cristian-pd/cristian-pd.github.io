@@ -205,7 +205,7 @@ const bigProjects = {
     {
       image: require("./assets/images/new/tfg.webp"),
       projectName: "Artificial Life",
-      projectDesc: "Bachelor’s thesis, graded 10/10 ✅, focused on developing a <b>C#</b> AI system",
+      projectDesc: "Bachelor’s thesis, graded 10/10, focused on developing a <b>Unity</b> AI system",
       footerLink: [
         {
           name: "See more",
@@ -215,7 +215,7 @@ const bigProjects = {
     },
 	{
       image: require("./assets/images/new/tcLogo.webp"),
-      projectName: "Top Cruise 🧩",
+      projectName: "Top Cruise",
       projectDesc: "A puzzle simulation game made with <b>Unity</b> and <b>C#</b>",
       footerLink: [
         {

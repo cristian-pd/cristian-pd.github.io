@@ -7,6 +7,14 @@ import "./proj.scss";
 import "./tfgproj.scss";
 import tfgddiagram from "../assets/new/tfgddiagram.png";
 import tfgimage from "../assets/new/tfgimage.png";
+import SoftwareSkill from "../components/softwareSkills/SoftwareSkill";
+
+const tfgSkills = [
+  { skillName: "unity",    fontAwesomeClassname: "unityLogo" },
+  { skillName: "game-dev", fontAwesomeClassname: "gameLogo"  },
+  { skillName: "math",     fontAwesomeClassname: "mathLogo"  },
+  { skillName: "c#",       fontAwesomeClassname: "csLogo"    },
+];
 
 function TFGProj() {
   useLayoutEffect(() => {
@@ -49,9 +57,17 @@ function TFGProj() {
         </div>
         <br/>
         <br/>
+        <p className="tfg-subTitle tfg-p-center"><b>What skills did I use?</b></p>
         <br/>
-        <h5>Description</h5>
-        <p className="tfg-subTitle">This project is my thesis, which I completed entirely on my own and for which I received a grade of 10 out of 10. It consists of a simulation that uses three different artificial intelligence algorithms. These algorithms were implemented from scratch by me without using any external libraries.</p>
+        <SoftwareSkill skillMap={tfgSkills} />
+        <h5 className="tfg-no-abstract">What did it do?</h5>
+        <p className="tfg-no-abstract">This project is <b>my Bachelor's thesis in Computer Science, which I programmed entirely on my own</b> and for which I received a grade of 10 out of 10. It consists of a <b>simulation that uses three different artificial intelligence algorithms</b>. These algorithms were implemented from scratch by me without using any external libraries.</p>
+        <h5 className="tfg-no-abstract">What was the result?</h5>
+        <p className="tfg-no-abstract">An artificial intelligence that evolves creatures by giving them specific settings and behaviors. The results showed that <b>my AI configured the creatures using logic similar to human thinking.</b></p>
+        <h5 className="tfg-no-abstract">Why is it important?</h5>
+        <p className="tfg-no-abstract">Simulations are a key tool in modern science, allowing the study of complex or inaccessible systems, such as the universe, through theoretical models.</p>
+        <br/>
+        <p className="tfg-subTitle"><b>How did I do it?</b></p>
         <p className="tfg-subTitle">The simulation uses genetic algorithms to find the creatures that best adapt to the environment over successive generations. Each creature internally uses a state machine that governs its behaviour throughout its lifetime. In addition, each node of the state machine internally uses a decision tree. This decision tree is what determines the creature’s current behaviour.</p>
         <p className="tfg-subTitle">This project was implemented using the waterfall development methodology. It began with the decision of the tools to be used, after which a brainstorming process was carried out, from which 30 ideas emerged. Fifteen ideas were selected and analysed exhaustively. The end of the analysis phase resulted in a Software Functional Requirements Definition document, with 39 features to be implemented.</p>
         <p className="tfg-subTitle">The design phase consisted of analysing the functional requirements in order to find a way to turn them into a final product. To achieve this, the functional requirements were divided into modules, and each module was defined and documented using UML diagrams and mathematical formulas. The following diagram is a highly summarized version of the entire process documented in the attached PDF, which can be found at the beginning of this webpage.</p>
