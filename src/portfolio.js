@@ -194,7 +194,7 @@ const bigProjects = {
     {
       image: require("./assets/images/new/doLogo.webp"),
       projectName: "DarkOrbit MMO Rework",
-      projectDesc: "Online Game built from scratch with a <b>C++</b> server and <b>C#</b> client",
+      projectDesc: "Online Game built from scratch with a <b>C++</b> server and a <b>C#</b> client",
       footerLink: [
         {
           name: "See more",
