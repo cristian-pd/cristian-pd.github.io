@@ -74,26 +74,6 @@ const illustration = {
   animated: true
 };
 
-// ---------------------------In use---------------------------
-const greeting = {
-  username: "",
-  title: "Hi all",
-  subTitle: emoji("My name is Cristian Pagán. I’m a programmer focused on Multiplayer Game Development 💫 I’m an expert in C++ and C#, with a degree in Computer Science, and I’m currently studying Game Design. I consider myself a big-picture thinker who transforms complex challenges into scalable solutions 🚀"),
-  resumeLink: "",
-  displayGreeting: true
-};
-
-const socialMediaLinks = {
-  github: "https://github.com/cristian-pd",
-  linkedin: "https://www.linkedin.com/in/cristian-pagan-diaz/",
-  gmail: "contact.cristianpd@gmail.com",
-  gitlab: "",
-  facebook: "",
-  medium: "",
-  stackoverflow: "",
-  display: true
-};
-
 const skillsSection = {
   title: "What I do",
   subTitle: "Quick-learning developer with full confidence in his abilities.",
@@ -117,7 +97,7 @@ const skillsSection = {
       skillName: ".net",
       fontAwesomeClassname: "netLogo"
     },
-	{
+	  {
       skillName: "unity",
       fontAwesomeClassname: "unityLogo"
     },
@@ -153,37 +133,57 @@ const skillsSection = {
       skillName: "linux",
       fontAwesomeClassname: "linuxLogo"
     },
-	{
+	  {
       skillName: "reverse-engineering",
       fontAwesomeClassname: "revengLogo"
     },
-	{
+	  {
       skillName: "cmake",
       fontAwesomeClassname: "cmakeLogo"
     },
-	{
+	  {
       skillName: "git",
       fontAwesomeClassname: "gitLogo"
     },
-	{
+	  {
       skillName: "blender",
       fontAwesomeClassname: "blenderLogo"
     },
-	{
+	  {
       skillName: "php",
       fontAwesomeClassname: "phpLogo"
     },
-	{
+	  {
       skillName: "css3",
       fontAwesomeClassname: "cssLogo"
     },
-	{
+	  {
       skillName: "html5",
       fontAwesomeClassname: "html5Logo"
     }
   ],
   
   display: false
+};
+
+// ---------------------------In use---------------------------
+const greeting = {
+  username: "",
+  title: "Hi all",
+  subTitle: emoji("My name is Cristian Pagán. I’m a programmer focused on Multiplayer Game Development 💫 I’m an expert in C++ and C#, with a degree in Computer Science, and I’m currently studying Game Design. I consider myself a big-picture thinker who transforms complex challenges into scalable solutions 🚀"),
+  resumeLink: "",
+  displayGreeting: true
+};
+
+const socialMediaLinks = {
+  github: "https://github.com/cristian-pd",
+  linkedin: "https://www.linkedin.com/in/cristian-pagan-diaz/",
+  gmail: "contact.cristianpd@gmail.com",
+  gitlab: "",
+  facebook: "",
+  medium: "",
+  stackoverflow: "",
+  display: true
 };
 
 const bigProjects = {
