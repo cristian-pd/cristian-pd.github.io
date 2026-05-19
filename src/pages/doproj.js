@@ -48,7 +48,7 @@ function DOProj() {
         <p className="do-no-abstract"><b>This project was the starting point for other online game project, which I am still developing</b>, based on the idea: <i>“make it exist first, make it good later”</i>. Apart from that, the game DarkOrbit evokes nostalgia in me; it was what sparked my interest in programming when I was a child, and it already became my dream back then to create a space MMO game.</p>
         <h3 className="do-no-abstract">Implemented features</h3>
         <ul>
-          <li className="do-no-abstract">Skill system (direct or area-based)</li>
+          <li className="do-no-abstract">Spell system (direct or area-based)</li>
           <li className="do-no-abstract">Aura system (buffs and debuffs)</li>
           <li className="do-no-abstract">Combat system (lasers and missiles)</li>
           <li className="do-no-abstract">Portal system (instanced maps)</li>
