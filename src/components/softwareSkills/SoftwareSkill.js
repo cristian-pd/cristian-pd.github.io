@@ -22,6 +22,7 @@ import brushLogo from "../../assets/new/skills/paintbrush-solid-full.svg";
 import phpLogo from "../../assets/new/skills/php-brands-solid-full.svg";
 import cssLogo from "../../assets/new/skills/css-brands-solid-full.svg";
 import html5Logo from "../../assets/new/skills/html5-brands-solid-full.svg";
+import reverse from "../../assets/new/skills/reverse.svg";
 
 const logosMap = {
   "cppLogo": cppLogo,
@@ -44,7 +45,8 @@ const logosMap = {
   "brushLogo": brushLogo,
   "phpLogo": phpLogo,
   "cssLogo": cssLogo,
-  "html5Logo": html5Logo
+  "html5Logo": html5Logo,
+  "reverse": reverse
 };
 
 export default function SoftwareSkill({ skillMap }) {
