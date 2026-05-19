@@ -22,7 +22,10 @@ import brushLogo from "../../assets/new/skills/paintbrush-solid-full.svg";
 import phpLogo from "../../assets/new/skills/php-brands-solid-full.svg";
 import cssLogo from "../../assets/new/skills/css-brands-solid-full.svg";
 import html5Logo from "../../assets/new/skills/html5-brands-solid-full.svg";
-import reverse from "../../assets/new/skills/reverse.svg";
+import reverse from "../../assets/new/skills/diff/reverse.svg";
+import aws from "../../assets/new/skills/aws-brands-solid-full.svg";
+import wireshark from "../../assets/new/skills/diff/wireshark.svg";
+import boost from "../../assets/new/skills/diff/boost.svg";
 
 const logosMap = {
   "cppLogo": cppLogo,
@@ -46,7 +49,10 @@ const logosMap = {
   "phpLogo": phpLogo,
   "cssLogo": cssLogo,
   "html5Logo": html5Logo,
-  "reverse": reverse
+  "reverse": reverse,
+  "aws": aws,
+  "wireshark": wireshark,
+  "boost": boost
 };
 
 export default function SoftwareSkill({ skillMap }) {
