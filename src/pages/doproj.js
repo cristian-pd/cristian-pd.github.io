@@ -5,8 +5,9 @@ import "../containers/greeting/Greeting.scss"
 import "./proj.scss";
 import "./doproj.scss";
 import SoftwareSkill from "../components/softwareSkills/SoftwareSkill";
-import dodiagram from "../assets/new/tfgddiagram.png";
-import doimage from "../assets/new/tfgimage.png";
+import compa from "../assets/new/tfgddiagram.png";
+import clientserver from "../assets/new/client-server.png";
+import arch from "../assets/new/tfgddiagram.png";
 
 const doSkills = [
   { skillName: "c++",       fontAwesomeClassname: "cppLogo"   },
@@ -67,16 +68,17 @@ function DOProj() {
           <li className="do-no-abstract">Mineral refinement system</li>
         </ul>
         <h3 className="do-no-abstract do-subTitle">How did I do it?</h3>
-        <p className="do-no-abstract do-subTitle">The simulation uses genetic algorithms to find the creatures that best adapt to the environment over successive generations. Each creature internally uses a state machine that governs its behaviour throughout its lifetime. In addition, each node of the state machine internally uses a decision tree. This decision tree is what determines the creature’s current behaviour.</p>
-        <p className="do-no-abstract do-subTitle">This project was implemented using the waterfall development methodology. It began with the decision of the tools to be used, after which a brainstorming process was carried out, from which 30 ideas emerged. Fifteen ideas were selected and analysed exhaustively. The end of the analysis phase resulted in a Software Functional Requirements Definition document, with 39 features to be implemented.</p>
-        <p className="do-no-abstract do-subTitle">The design phase consisted of analysing the functional requirements in order to find a way to turn them into a final product. To achieve this, the functional requirements were divided into modules, and each module was defined and documented using UML diagrams and mathematical formulas. The following diagram is a highly summarized version of the entire process documented in the attached PDF, which can be found at the beginning of this webpage.</p>
-        <img className="do-img do-img-aux" src={dodiagram} alt="Diagram" />
+        <p className="do-no-abstract do-subTitle">The biggest challenge of the project has been maintaining the highest possible fidelity to the original game. To achieve this, I used the assets of the original game, which are only used <i>for educational and preservation purposes</i> and whose rights belong to Bigpoint GmbH. However, all the code was entirely developed by me in Unity.</p>
+        <p className="do-no-abstract do-subTitle">To correctly position all visual elements, I had to reverse-engineer forgotten files from the original 2007 client, developed in Flash Player. In addition, I used numerous YouTube videos as references to accurately recreate the original proportions and behaviours of the game.</p>
+        <img className="do-img do-img-aux" src={compa} alt="Version comparison" />
         <br/>
+        <p className="do-no-abstract do-subTitle">The game uses a client–server network topology. The server receives actions from all players, updates the game world state, and then sends the updated information back to each client to ensure that all players have a consistent and synchronized view of the game world. Communication between clients and the server occurs over a physical cable-based network or through air using technologies such as Wi-Fi. Specifically, I have implemented most of the techniques described in the book <i>Multiplayer Game Programming: Architecting Networked Games</i>.</p>
         <br/>
-        <p className="do-no-abstract do-subTitle">After the design phase, the implementation phase was carried out, in which all the code was programmed. Then, a validation phase was conducted by presenting the already functional simulation to my university supervisors. Finally, the system was improved based on the feedback received.</p>
-        <p className="do-no-abstract do-subTitle">From this moment on, with the system fully implemented, the project moved on to its scientific phase. Several experiments were run, configured in a specific way, and the resulting data were analysed. The following image shows a summarized result of one of the experiments. In this experiment, it can be observed how the genetic algorithm takes effect and how the average evolution of all creatures over 97 generations tends toward convergence.</p>
+        <img className="do-img do-img-aux" src={clientserver} alt="Client-Server Diagram" />
         <br/>
-        <img className="do-img do-img-aux" src={doimage} alt="Experiment 2 summary" />
+        <p className="do-no-abstract do-subTitle">The networking part was programmed from scratch. No high-level technology was used to simplify the work; only the operating system’s TCP socket interface was used. The goal was to make the game server efficient and as scalable as possible in the future. This decision also reduces the monthly costs of keeping the servers running in the cloud.</p>
+        <img className="do-img do-img-aux" src={arch} alt="Network Architecture Diagram" />
+        <br/>
       </div>
     </div>
   );
