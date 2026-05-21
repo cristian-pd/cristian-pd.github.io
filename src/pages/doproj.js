@@ -5,7 +5,7 @@ import "../containers/greeting/Greeting.scss"
 import "./proj.scss";
 import "./doproj.scss";
 import SoftwareSkill from "../components/softwareSkills/SoftwareSkill";
-import compa from "../assets/new/tfgddiagram.png";
+import compa from "../assets/new/docomp.png";
 import clientserver from "../assets/new/client-server.png";
 import arch from "../assets/new/tfgddiagram.png";
 
@@ -70,8 +70,7 @@ function DOProj() {
         <h3 className="do-no-abstract do-subTitle">How did I do it?</h3>
         <p className="do-no-abstract do-subTitle">The biggest challenge of the project has been maintaining the highest possible fidelity to the original game. To achieve this, I used the assets of the original game, which are only used <i>for educational and preservation purposes</i> and whose rights belong to Bigpoint GmbH. However, all the code was entirely developed by me in Unity.</p>
         <p className="do-no-abstract do-subTitle">To correctly position all visual elements, I had to reverse-engineer forgotten files from the original 2007 client, developed in Flash Player. In addition, I used numerous YouTube videos as references to accurately recreate the original proportions and behaviours of the game.</p>
-        <img className="do-img do-img-aux" src={compa} alt="Version comparison" />
-        <br/>
+        <img className="do-img do-img-big" src={compa} alt="Version comparison" />
         <p className="do-no-abstract do-subTitle">The game uses a client–server network topology. The server receives actions from all players, updates the game world state, and then sends the updated information back to each client to ensure that all players have a consistent and synchronized view of the game world. Communication between clients and the server occurs over a physical cable-based network or through air using technologies such as Wi-Fi. Specifically, I have implemented most of the techniques described in the book <i>Multiplayer Game Programming: Architecting Networked Games</i>.</p>
         <br/>
         <img className="do-img do-img-aux" src={clientserver} alt="Client-Server Diagram" />
