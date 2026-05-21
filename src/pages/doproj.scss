@@ -47,12 +47,19 @@
     width: 100%;
     height: auto;
   }
-}
 
-.do-img-big {
+  .do-img-big {
     width: 100%;
     height: auto;
   }
+}
+
+@media (min-width: 768px) {
+  .do-img-big {
+    width: 85%;
+    height: auto;
+  }
+}
 
 .do-p-center {
   width: 100%;
