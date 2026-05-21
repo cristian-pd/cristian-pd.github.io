@@ -36,7 +36,7 @@ function DOProj() {
         <br/>
         <br/>
         <div className="do-video-wrapper">
-          <iframe className="do-video" src="https://www.youtube.com/embed/PwmmFecg4Lg" title="Simulation of natural selection by evolutionary computation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe className="do-video" src="https://www.youtube.com/embed/PwmmFecg4Lg" title="DarkOrbit MMO Rework" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         <br/>
         <br/>
