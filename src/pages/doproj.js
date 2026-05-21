@@ -7,7 +7,7 @@ import "./doproj.scss";
 import SoftwareSkill from "../components/softwareSkills/SoftwareSkill";
 import compa from "../assets/new/docomp.png";
 import clientserver from "../assets/new/client-server.png";
-import arch from "../assets/new/tfgddiagram.png";
+import arch from "../assets/new/donet.png";
 
 const doSkills = [
   { skillName: "c++",       fontAwesomeClassname: "cppLogo"   },
