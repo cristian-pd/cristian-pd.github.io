@@ -1,0 +1,78 @@
+@import "../_globalColor";
+
+.do-button-greeting-div {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .do-greeting-text {
+      text-align: center;
+  }
+}
+
+.do-abstract {
+  font-style: italic;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+.do-no-abstract {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+.do-subTitle {
+  color: $subTitle !important;
+}
+
+.do-video-wrapper {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  aspect-ratio: 16 / 9;
+}
+
+.do-video {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 12px;
+}
+
+.do-img {
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .do-img-aux {
+    width: 100%;
+    height: auto;
+  }
+
+  .do-img-big {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .do-img-big {
+    width: 85%;
+    height: auto;
+  }
+}
+
+.do-p-center {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  font-style: italic;
+}
+
+.do-p-center {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    font-style: italic;
+}

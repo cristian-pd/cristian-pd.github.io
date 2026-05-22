@@ -6,7 +6,7 @@ function Header() {
      <header className={"header"}>
        <ul className={"menu"}>
          <li>
-           <a className="logo" href="/"><span className="very-grey-color"> &lt; Back to Home</span></a>
+           <a className="logo" href="/"><span className="very-grey-color"> &lt; Home Page</span></a>
          </li>
        </ul>
      </header>
